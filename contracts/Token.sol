@@ -41,7 +41,7 @@ contract Token {
      */
     function transfer(address _to, uint256 _amount) external {
         console.log("Sender balance is %s tokens", balances[msg.sender]);
-        console.log("Trying to send %s tokens to %s", amount, to);
+        console.log("Trying to send %s tokens to %s", _amount, _to);
 
         // Check if the transaction sender has enough tokens.
         // If `require`'s first argument evaluates to `false` then the
