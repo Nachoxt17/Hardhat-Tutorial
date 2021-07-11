@@ -64,4 +64,4 @@ contract Token {
     }
 }
 
-//+-To compile the contract run npx hardhat compile in your terminal. The compile task is one of the built-in tasks.
+//+-To compile the contract run "npx hardhat compile" in your terminal. The compile task is one of the built-in tasks.
